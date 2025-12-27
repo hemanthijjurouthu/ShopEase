@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo-container">
+        <img src="images/logo.jpg" alt="ShopEase Logo" class="logo-img">
+        <h2 class="logo-text">ShopEase</h2>
+    </div>
+
+    <div class="cart-icon" onclick="toggleCart()">
+        🛒 <span id="cart-count">0</span>
+    </div>
+</header>
+
+<main class="container">
+    <section class="products" id="products-list">
+        <!-- Products rendered by JavaScript -->
+    </section>
+</main>
+
+<aside class="cart" id="cart">
+    <button class="close-cart" onclick="toggleCart()">✖</button>
+    <h3>Your Cart</h3>
+
+    <div id="cart-items"></div>
+
+    <div class="totals">
+        <div class="row">
+            <span>Subtotal</span>
+            <span id="subtotal">₹0</span>
+        </div>
+        <div class="row">
+            <span>Shipping</span>
+            <span id="shipping">₹0</span>
+        </div>
+        <div class="total-row">
+            <span>Total</span>
+            <span id="total">₹0</span>
+        </div>
+    </div>
+
+    <button class="checkout-btn">Checkout</button>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
