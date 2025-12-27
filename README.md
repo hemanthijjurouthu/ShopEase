@@ -54,7 +54,7 @@ shopping-cart/
 ├─ script.js        # JavaScript functionality
 ├─ images/          # Product images (icons, product photos, etc.)
 └─ README.md        # Project documentation
-
+```
 
 ---
 
