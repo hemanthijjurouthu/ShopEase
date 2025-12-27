@@ -46,13 +46,14 @@ A modern, lightweight e-commerce shopping cart system built using **vanilla Java
 
 ## 📁 Project Structure
 
+```plaintext
 shopping-cart/
 │
-├─ index.html # Main HTML file
-├─ style.css # Styling for the app
-├─ script.js # JavaScript functionality
-├─ images/ # Product images (icons, product photos, etc.)
-└─ README.md # Project documentation
+├─ index.html       # Main HTML file
+├─ style.css        # Styling for the app
+├─ script.js        # JavaScript functionality
+├─ images/          # Product images (icons, product photos, etc.)
+└─ README.md        # Project documentation
 
 
 ---
