@@ -4,14 +4,6 @@ A modern, lightweight e-commerce shopping cart system built using **vanilla Java
 
 ---
 
-## 🔗 Live Application URLs
-
-| Component | URL |
-| :--- | :--- |
-| **Live Demo** | *(Add your live demo URL here, e.g., GitHub Pages link)* |
-
----
-
 ## 🚀 Key Features
 
 * **🛒 Shopping Cart Functionality:**
@@ -57,6 +49,20 @@ shopping-cart/
 ```
 
 ---
+
+# 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 🛒 Cart Drawer (Opened)
+![Cart Drawer](screenshots/cart.png)
+
+---
+
+# 🔗 Live Demo
+
+👉 **https://shopease-6b3g.onrender.com/**
 
 ## 💡 Author
 
